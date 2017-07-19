@@ -24,7 +24,7 @@ public class Movie {
 		return genre;
 	}
 
-	static enum Genre {
+	enum Genre {
 		ACTION,
 		COMEDY,
 		DRAMA,
