@@ -10,5 +10,7 @@ services:
       - "8080:8080"
     volumes:
      - .:/code
+    links:
+     - mongo
     depends_on:
       - "mongo"
